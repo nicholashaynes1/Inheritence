@@ -24,6 +24,36 @@ public class FreeWeights extends Exercise
 		
 		return workouts;
 	}
+	@Override
+	public boolean isCheezy(ArrayList<String> ingredients)
+	{
+		
+		return false;
+	}
+	@Override
+	public boolean isSpycy(ArrayList<String> ingredients)
+	{
+		
+		return false;
+	}
+	@Override
+	public boolean isHealthee(ArrayList<String> ingredients)
+	{
+		
+		return false;
+	}
+	@Override
+	public int calorieCounter(int calories)
+	{
+		
+		return -5000;
+	}
+	@Override
+	public int delicousness(int criticRating)
+	{
+		
+		return 0;
+	}
 	
 
 }

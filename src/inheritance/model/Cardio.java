@@ -23,5 +23,40 @@ public class Cardio extends Exercise
 		
 		return workouts;
 	}
+
+	@Override
+	public boolean isCheezy(ArrayList<String> ingredients)
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isSpycy(ArrayList<String> ingredients)
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isHealthee(ArrayList<String> ingredients)
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int calorieCounter(int calories)
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int delicousness(int criticRating)
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 }
