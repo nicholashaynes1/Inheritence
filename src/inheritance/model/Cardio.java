@@ -48,7 +48,7 @@ public class Cardio extends Exercise
 	@Override
 	public int calorieCounter(int calories)
 	{
-		// TODO Auto-generated method stub
+		
 		return 0;
 	}
 

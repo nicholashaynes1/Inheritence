@@ -45,7 +45,7 @@ public class SHINee extends Kpop
 	@Override
 	public int calorieCounter(int calories)
 	{
-		return 0;
+		return 400;
 	}
 	
 	@Override

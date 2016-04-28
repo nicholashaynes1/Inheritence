@@ -70,7 +70,8 @@ public class InheritancePanel extends JPanel
 		{
 			public void actionPerformed(ActionEvent Click)
 			{
-				baseController.quickSort(0, 2);
+				baseController.insertionSort();
+				chatTextViewer.setText(baseController.showFoodLevels());
 			}
 			
 		});

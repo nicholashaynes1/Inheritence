@@ -46,11 +46,12 @@ public class InheritanceController
 	
 	private void makeList()
 	{
-		
+		foods.add(new Cardio());
 		foods.add(new FourMeat());
 		foods.add(new FreeWeights());
 		foods.add(new SHINee());
 		foods.add(new Panini());
+		
 		
 	}
 	
@@ -82,11 +83,11 @@ public class InheritanceController
 		int position = low;
 		Foods piot = foods.get(high);
 
-		for (int spot = low; spot < high - 1; spot++)
+		for (int spot = low; spot < high; spot++)
 		{
 			if (foods.get(spot).compareTo(piot) <= 0)
 			{
-				swap(position, spot);
+				swap(spot, high);
 				position++;
 			}
 		}
